@@ -31,35 +31,35 @@ The goal is to explore and visualize trade dynamics across EU countries, focusin
 
 European-Union-Trade-in-Goods-and-Services-analysis/
 <br>
- # data cleaning and transformation
+data cleaning and transformation
 <br>
 ├── src/data_processing.py                                      
 <br>
- # data map with 2 letter country codes (information directly from eurostat)
+data map with 2 letter country codes (information directly from eurostat)
 <br>
 ├── data/raw/country_codes_UE.csv                               
 <br>
-#  data map with other complementary information (directly from eurostat)
+data map with other complementary information (directly from eurostat)
 <br>
 ├── data/raw/na_item.csv                                  
 <br>
-#  explanation on data maps and sources from all data utilized
+explanation on data maps and sources from all data utilized
 <br>
 ├── data/raw/data_dictionary.txt                                
 <br>
-# original kaggle csv
+original kaggle csv
 <br>
 ├── data/raw/nama_10_exi_2026-04-01.csv                         
 <br>
-# Country level data
+Country level data
 <br>
 ├── data/processed/nama_10_exi_2026-04-01_treated.csv           
 <br>
-# European Union Level data
+European Union Level data
 <br>
 ├── data/processed/nama_10_exi_2026-04-01_EU_treated.csv        
 <br>
-# Power BI Dashboard
+Power BI Dashboard
 <br>
 └── dashboard/eu_trade_dashboard.pbix                           
 <br>
