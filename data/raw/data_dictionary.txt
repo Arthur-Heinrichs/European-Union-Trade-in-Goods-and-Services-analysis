@@ -1,0 +1,54 @@
+1. Country Codes (2_letter_code, country)
+
+Country identifiers follow the official Eurostat country code standard.
+
+Sources:
+
+Eurostat – Country codes reference
+https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Tutorial:Country_codes_and_protocol_order
+https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Country_codes
+
+Notes:
+
+Codes such as EA21 and EA12 (euro area aggregates) are not included in the mapping table.
+Although their meaning could be inferred, they were intentionally left unmapped to avoid assumptions not explicitly defined by Eurostat.
+2. Variable: unit
+
+Defines how the economic values are measured.
+
+Possible values:
+CP_MEUR → Current prices, million euro
+CP_MNAC → Current prices, million units of national currency
+CLV20_MEUR → Chain linked volumes (2020), million euro
+CLV15_MEUR → Chain linked volumes (2015), million euro
+CLV10_MEUR → Chain linked volumes (2010), million euro
+Methodological notes:
+CP_MNAC (national currency series):
+Reported by Member States and correspond to nationally published figures. These values include:
+volume component
+price (inflation) component
+exchange rate effects (when the currency is not the euro)
+CP_MEUR (euro series):
+Derived from national currency series using historical exchange rates.
+Suitable for internal comparison and aggregation
+When analyzing over time, exchange rate effects must be considered
+For euro area Member States:
+National currency series are converted using irrevocably fixed exchange rates
+This preserves growth rates from the original national series
+Values match after euro adoption but differ in earlier years due to market exchange rate fluctuations
+3. Variable: na_item
+
+Represents the type of national accounts transaction related to trade flows.
+
+Classification:
+P.6 → Exports of goods and services
+P.7 → Imports of goods and services
+
+Source:
+
+Eurostat metadata
+https://ec.europa.eu/eurostat/cache/metadata/en/nama_10_gdp_esms.htm
+4. General Notes
+The dataset is based on Eurostat national accounts data.
+Trade variables follow ESA (European System of Accounts) standards.
+Values may differ depending on whether they are expressed in national currency or euros, especially for historical series.
