@@ -30,21 +30,21 @@ The goal is to explore and visualize trade dynamics across EU countries, focusin
 ## 📁 Project Structure
 European-Union-Trade-in-Goods-and-Services-analysis/
 <br>
-├── src/data_processing.py                                      # data cleaning and transformation
+├── src/data_processing.py                                      **# data cleaning and transformation**
 <br>
-├── data/raw/country_codes_UE.csv                               # data map with 2 letter country codes (information directly from eurostat) 
+├── data/raw/country_codes_UE.csv                               **# data map with 2 letter country codes (information directly from eurostat) **
 <br>
-├── data/raw/na_item.csv                                        #  data map with other complementary information (directly from eurostat)
+├── data/raw/na_item.csv                                        **#  data map with other complementary information (directly from eurostat)**
 <br>
-├── data/raw/data_dictionary.txt                                #  explanation on data maps and sources from all data utilized
+├── data/raw/data_dictionary.txt                                **#  explanation on data maps and sources from all data utilized**
 <br>
-├── data/raw/nama_10_exi_2026-04-01.csv                         # original kaggle csv
+├── data/raw/nama_10_exi_2026-04-01.csv                         **# original kaggle csv**
 <br>
-├── data/processed/nama_10_exi_2026-04-01_treated.csv           # Country level data
+├── data/processed/nama_10_exi_2026-04-01_treated.csv           **# Country level data**
 <br>
-├── data/processed/nama_10_exi_2026-04-01_EU_treated.csv        # European Union Level data
+├── data/processed/nama_10_exi_2026-04-01_EU_treated.csv        **# European Union Level data**
 <br>
-└── dashboard/eu_trade_dashboard.pbix                           # Power BI Dashboard 
+└── dashboard/eu_trade_dashboard.pbix                           **# Power BI Dashboard **
 <br>
 
 ## 📈 Dashboard
