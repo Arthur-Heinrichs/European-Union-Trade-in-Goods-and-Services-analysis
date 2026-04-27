@@ -30,7 +30,7 @@ The goal is to explore and visualize trade dynamics across EU countries, focusin
 ## 📁 Project Structure
 European-Union-Trade-in-Goods-and-Services-analysis/
 <br>
-├── src/data_processing.py                                      #Data cleaning and transformation
+├── src/data_processing.py                                      # data cleaning and transformation
 <br>
 ├── data/raw/country_codes_UE.csv                               # data map with 2 letter country codes (information directly from eurostat) 
 <br>
