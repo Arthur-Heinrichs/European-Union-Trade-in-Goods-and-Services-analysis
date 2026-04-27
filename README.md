@@ -28,7 +28,6 @@ The goal is to explore and visualize trade dynamics across EU countries, focusin
     ---
 
 ## 📁 Project Structure
-<br>
 European-Union-Trade-in-Goods-and-Services-analysis/
 <br>
 ├── src/data_processing.py                                      #Data cleaning and transformation
